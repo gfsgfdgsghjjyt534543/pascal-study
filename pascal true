@@ -1,0 +1,12 @@
+uses crt;
+var x:integer;
+Y:Boolean;
+begin
+clrscr;
+x:=4;
+Y:=X>3;
+writeln(Y);
+Y:=X<3;
+writeln(Y);
+readln
+end.

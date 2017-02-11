@@ -1,0 +1,8 @@
+var S : String;
+    B : Boolean;
+begin
+    Writeln('Введите "1" Для TRUE и прочее - для FALSE');
+    Readln(S);
+    B := S='1';
+    Writeln(B); Readln;
+end.
